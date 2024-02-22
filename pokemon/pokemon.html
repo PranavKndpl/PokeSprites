@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <button onclick="reset()" class="hov" id="reset">reset</button>
+    <div id="pokedex">
+        <div id="display">
+
+            <img src="" alt="*Pokemon*" id="pokemon" style="visibility:hidden">
+ 
+        </div>
+        
+    
+        <div id="srch">
+
+            <input type="text" id="Pname" placeholder="enter a pokemon name." spellcheck="false">
+            <button onclick="fetchpoke()" id="btn">Summon pokemon</button>
+    
+        </div>
+    </div>
+
+    <div id="generator">
+        <button onclick="randomPokemon()" class="hov">random</button>
+        <input type="text" id="randomName" readonly>
+    </div>
+    
+    <script src="pokemon.js"></script>
+</body>
+</html>
+
